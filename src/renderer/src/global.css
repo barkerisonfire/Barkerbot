@@ -1,0 +1,4 @@
+html, body, #root { height: 100%; margin: 0; }
+body { font-family: 'Segoe UI', 'Segoe UI Web (West European)', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif; background: #faf9f8; overflow: hidden; }
+* { box-sizing: border-box; }
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }

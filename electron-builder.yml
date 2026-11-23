@@ -1,0 +1,12 @@
+appId: com.barkerbot.admincenter
+productName: Barkerbot Admin Center
+directories:
+  output: dist
+files:
+  - out/**/*
+  - package.json
+win:
+  target: [nsis]
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
